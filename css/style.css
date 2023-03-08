@@ -1,0 +1,68 @@
+body
+{
+    background-image: url(../img/daniel-apodaca-WdoQio6HPVA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    overflow: hidden;
+    width: 100%;
+    /* height: 70px; */
+    margin-top: 25px;
+    border-radius: 15px;
+    color: #fff;
+}
+.logo{
+    width: 110px;
+    margin-top: -8px;
+    margin-left: 100px;
+}
+
+.header .main-logo{
+    float: left;
+    
+}
+/* menu  */
+.header .header-links{
+    float: right;
+    margin-right:100px;
+    margin-top: 30px;
+}
+.header .header-links a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 8px;
+    padding: 3px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.header .header-links a:hover{
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    border-bottom:1px solid #fff;
+}
+/* end menu  */
+.container{
+    margin-top: 10px;
+    overflow: hidden;
+    height: 300px;
+}
+
+/* paragraph */
+.para{
+    
+    width: 500px;
+    float: left;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 200px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+    z-index: 1;
+}

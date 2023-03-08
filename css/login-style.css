@@ -1,0 +1,136 @@
+body{
+    background-color: #fff;
+}
+.header{
+    background-color: rgb(84, 82, 82);
+    overflow: hidden;
+    width: 100%;
+    border-radius: 15px;
+    height: 100px;
+}
+.header .main-logo{
+    float: left;
+}
+.header .main-logo .logo{
+    width: 100px;
+    margin-left: 100px;
+    
+}
+.header .header-links{
+    float: right;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.header .header-links a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 8px;
+    padding: 3px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.header .header-links a:hover{
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    border-bottom:1px solid #fff;
+}
+.container{
+    margin-left: 150px;
+    margin-top: -150px;
+}
+
+.form{
+    width: 40%;
+    height: 300px;
+    background-color: rgba(240, 244, 244, 0.334);
+    border-radius: 15%;
+    margin-top: 200px;
+ 
+}
+.form-input{
+    position: relative;
+    top: 70px;
+    left: 20%;
+    margin-top: 30px;
+}
+.btn{
+    position: relative;
+    top: 90px;
+    left: 25%;
+    border: none;
+    border-radius: 25%;
+    color: #fff;
+    background-color: rgb(84, 82, 82);
+}
+.forget{
+    position: relative;
+    top: 90px;
+    left: 30%;
+    color: rgb(53, 190, 244);
+}
+.email, .Password{
+    border-radius: 15%;
+border: 1px solid rgb(84, 82, 82);
+padding-left:10px ;
+height: 20px;
+}
+.btn:hover{
+    color: #fff;
+    width: 60px;
+    height: 20px;
+    
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(56, 58, 58);
+    position: relative;
+    bottom: 0;
+    margin-top: 10px;
+    border-radius: 15px;
+ }
+ .social-1{
+    margin-left: 30px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .social-link{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    
+ }
+ .brands{
+    margin-right: 2px;
+ }
+ .copyright{
+    float: right;
+    margin-right: 100px;
+    color: #fff;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ 
+}
+.pic-1{
+    width: 40%;
+    height: 300px;
+    border-radius: 15%;
+    float: right;
+    margin-right: 100px;
+    margin-top: -300px;
+}
+.welcome{
+    margin-left: 560px;
+    margin-top: 50px;
+}
